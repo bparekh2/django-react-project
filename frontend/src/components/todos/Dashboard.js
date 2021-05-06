@@ -1,13 +1,12 @@
-// components/todos/Dashboard.js
-
 import React, { Component } from 'react';
+import TodoCreate from './TodoCreate';
 import TodoList from './TodoList';
 
 class Dashboard extends Component {
   render() {
     return (
       <div className='ui container'>
-        <div>Todo Create Form</div>
+        <TodoCreate />
         <TodoList />
       </div>
     );
